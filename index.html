@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+        <header class="topbar">
+            <a class="brand" href="#inicio">MARCOS.</a>
+            <button class="topbar__btn" id="menu-btn" aria-expanded="false" aria-controls="sidebar">Menu</button>
+        </header>
+
+        <div class="scrim" id="scrim" hidden></div>
+
+        <aside class="sidebar" id="sidebar" aria-label="Menu lateral">
+            <div class="sidebar__top">
+            <a class="brand" href="#inicio" aria-label="Marcos, início"><span class="brand__full">MARCOS.</span><span class="brand__short">M.</span></a>
+            <p class="role">Java Backend Developer</p>
+            </div>
+
+            <nav class="nav" aria-label="Seções do site">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#jornada">Jornada</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            </nav>
+
+            <div class="sidebar__foot">
+            <ul class="social">
+                <li><a href="#" data-link="github" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="#" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+            <p class="copy">© <span data-year>2026</span> Marcos. Todos os direitos reservados.</p>
+            <button class="collapse" id="collapse" type="button" aria-expanded="true" aria-controls="sidebar" aria-label="Recolher menu lateral">
+                <span class="collapse__icon" aria-hidden="true">←</span><span class="collapse__text">Recolher menu</span>
+            </button>
+            </div>
+        </aside>
+    </body>
+</html>
